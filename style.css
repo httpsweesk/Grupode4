@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.vermelho {
+    color:red; 
+}
+.top-header {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    color: white;
+}
+.red-x {
+    font-size: 50px;
+    color: red;
+  }
+  .user-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+  }
+  .user-options img {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+.sexualidade {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.barra-pesquisa{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+}
+.barra-pesquisa input {
+    background: #ffffff;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  .barra-pesquisa button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    cursor: not-allowed; /* indica que o botão tá desativado */
+  }
+  
+
+
+
+
+
+  .conteudo-principal {
+    padding: 20px;
+  }
+  
+  .galeria-videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .video-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .video-card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .video-card h3 {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .espaco-amagios {
+    margin-top: 40px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .espaco-amagios h2 {
+    color: rgb(255, 0, 0);
+    margin-bottom: 10px;
+  }
+  
+  .espaco-amagios textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    resize: vertical;
+    background-color: #333;
+    color: white;
+  }
+  
+  .espaco-amagios button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
